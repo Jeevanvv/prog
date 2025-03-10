@@ -1,24 +1,13 @@
-import java.util.Scanner;
-
 public class AddTwoNumbers {
     public static void main(String[] args) {
-        // Create a Scanner object to read input
-        Scanner scanner = new Scanner(System.in);
-
-        // Ask the user for two numbers
-        System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();  // Read the first number
-
-        System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();  // Read the second number
+        // Predefined values
+        int a = 10;
+        int b = 20;
 
         // Add the numbers
-        double sum = num1 + num2;
+        int sum = a + b;
 
         // Output the result
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-        
-        // Close the scanner to prevent memory leaks
-        scanner.close();
+        System.out.println("The sum of " + a + " and " + b + " is: " + sum);
     }
 }
